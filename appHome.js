@@ -257,6 +257,22 @@ const openModal = async trigger_id => {
 							emoji: true
 						},
 						value: "value-1"
+          },
+          {
+						text: {
+							type: "plain_text",
+							text: "就職活動のため",
+							emoji: true
+						},
+						value: "value-2"
+          },
+          {
+						text: {
+							type: "plain_text",
+							text: "授業のため",
+							emoji: true
+						},
+						value: "value-3"
 					},
 				],
 				action_id: "static_select_action"
